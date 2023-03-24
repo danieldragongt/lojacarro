@@ -1,0 +1,140 @@
+body {
+    background-color: #f3f3f3;
+  }
+  h1 {
+    font-size: 48px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+    text-align: center; /* Alinhamento do texto */
+    color: #333; /* Cor do texto */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 3px; /* Espaçamento entre as letras */
+    margin-top: 50px; /* Margem superior */
+    margin-bottom: 20px; /* Margem inferior */
+  }
+  header {
+    background-color: #e4eeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container {
+    height: 08rem;
+    width: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .logo-container img {
+    height: 100%;
+    width: auto;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #555555;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    background-color: #555555;
+    color: #ffffff;
+  }
+  
+
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  
+  
+  nav ul li:hover {
+    background-color: #3c01df;
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    border-top-right-radius: 0%;
+    border-radius: 8px;
+    border: #333;
+  }
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 16px;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+  h2 {
+    animation: fadeIn 1s ease-in-out;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+ul{display: flex;
+  border-radius: 0%;
+border: #333;}
